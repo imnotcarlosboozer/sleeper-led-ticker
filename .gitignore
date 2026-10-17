@@ -1,0 +1,7 @@
+injuries.json
+history.json
+.tmp-*.json
+demo_injuries.json
+fonts/
+__pycache__/
+.DS_Store

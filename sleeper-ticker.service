@@ -1,0 +1,15 @@
+[Unit]
+Description=Sleeper fantasy football injury LED ticker
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=__APP_DIR__
+ExecStart=/usr/bin/python3 __APP_DIR__/ticker.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,43 @@
+{
+  "panel": {
+    "rows": 32,
+    "cols": 64,
+    "chain_length": 2,
+    "parallel": 1,
+    "hardware_mapping": "adafruit-hat",
+    "gpio_slowdown": 2,
+    "brightness": 70,
+    "pwm_bits": 11
+  },
+  "display": {
+    "scroll_pixels_per_second": 40,
+    "show_header": true,
+    "scroll_font": "7x13.bdf",
+    "header_font": "5x7.bdf"
+  },
+  "data": {
+    "refresh_hours": 2,
+    "positions": [
+      "QB",
+      "RB",
+      "WR",
+      "TE",
+      "K"
+    ],
+    "statuses": [
+      "Out",
+      "Doubtful",
+      "Questionable",
+      "IR",
+      "PUP",
+      "Sus",
+      "NA",
+      "DNR",
+      "COV"
+    ],
+    "max_search_rank": 400,
+    "max_items": 60,
+    "sort": "recent",
+    "trend_hours": 72
+  }
+}
